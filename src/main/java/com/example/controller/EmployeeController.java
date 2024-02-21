@@ -155,11 +155,4 @@ public class EmployeeController {
 
 
 
-    @GetMapping("/testprint")
-    public ResponseEntity<String> testPrint() {
-
-        return ResponseEntity.ok("Hello World");
-    }
-
-
 }
